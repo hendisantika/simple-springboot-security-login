@@ -30,7 +30,7 @@ class Bootstrap implements ApplicationListener<ApplicationReadyEvent> {
     @Override
     void onApplicationEvent(final ApplicationReadyEvent event) {
         log.info 'Verifying if default user exist'
-        createUserWithRole('josdem', '12345678', 'joseluis.delacruz@gmail.com', Role.USER)
+        createUserWithRole('naruto', '1234', 'uzumaki.naruto@konohagakure.com', Role.USER)
     }
 
     private createUserWithRole(String username, String password, String email, Role authority) {
