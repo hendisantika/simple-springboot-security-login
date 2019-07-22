@@ -19,7 +19,7 @@ import static javax.persistence.GenerationType.AUTO;
  */
 @Entity
 @Data
-class User {
+public class User {
 
     @Id
     @GeneratedValue(strategy = AUTO)
