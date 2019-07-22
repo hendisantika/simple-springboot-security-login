@@ -27,9 +27,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-security')
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
-    compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('mysql:mysql-connector-java:8.016')
-    // https://mvnrepository.com/artifact/org.projectlombok/lombok
     compile('org.projectlombok:lombok:1.18.8')
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
