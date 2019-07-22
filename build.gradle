@@ -29,6 +29,6 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('mysql:mysql-connector-java')
     compile('org.projectlombok:lombok:1.18.8')
-    compile('org.codehaus.groovy:groovy-all')
+//    compile('org.codehaus.groovy:groovy-all')
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
