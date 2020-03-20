@@ -1,15 +1,15 @@
 plugins {
     id 'org.springframework.boot' version '2.2.5.RELEASE'
     id 'java'
-    id 'com.craigburke.bower-installer' version '2.5.1'
+//    id 'com.craigburke.bower-installer' version '2.5.1'
 }
-
-bower {
-    installBase = 'src/main/resources/static/assets/third-party'
-    'bootstrap'('3.3.7'){
-        source '**'
-    }
-}
+//
+//bower {
+//    installBase = 'src/main/resources/static/assets/third-party'
+//    'bootstrap'('3.3.7'){
+//        source '**'
+//    }
+//}
 
 apply plugin: 'io.spring.dependency-management'
 
