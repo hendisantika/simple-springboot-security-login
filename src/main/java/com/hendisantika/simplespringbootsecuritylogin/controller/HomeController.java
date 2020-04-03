@@ -3,7 +3,7 @@ package com.hendisantika.simplespringbootsecuritylogin.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * Created by IntelliJ IDEA.
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     Logger log = LoggerFactory.getLogger(HomeController.class);
 
-    @RequestMapping("/")
+    @GetMapping("/")
     String index() {
         log.info("Calling Index");
         return "index";
